@@ -8,7 +8,7 @@
 
 {% block body %}
 <div class="registerform ">
-    <h1 style="text-align:center;margin-bottom:20px;">Register</h1>
+    <h1 style="text-align:center;margin-bottom:20px;font-weight:bold;font-size:35px;">Créer un compte</h1>
     {% if msg == "INSCRIPTION REUSSI": %}
         <p style="color:green">{{ msg }}</p>
     {% else %}
@@ -44,7 +44,7 @@
           </div>
 
           <!-- Submit button -->
-          <button type="submit" class="submitbtn btn btn-block mb-4" style="background-color:#CAC7C7;">Créer un compte</button>
+          <button type="submit" class="submitbtn btn mb-4 btn-dark rounded-0 p-2 px-3" >Register</button>
 
           <!-- Register buttons -->
           <div class="text-center">
