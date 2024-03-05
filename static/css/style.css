@@ -75,6 +75,20 @@ a.inscrirebtn:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 14px;
 }
 
+.welcome2{
+    background-color: #DFDFDF;
+    padding: 30px 10%;
+}
+
+.welcome2>p {
+ font-size: 25px;
+}
+
+.footer{
+    min-height: 100px;
+    background-color: #AAA6A6;
+}
+
 
 
 
